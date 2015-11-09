@@ -1,0 +1,20 @@
+{
+  "id": "6bdb77f4c04952fb8e40da6b016e282a",
+  "user": "fredguth",
+  "title": "vindi",
+  "description": "",
+  "parameters": [
+    {
+      "type": "text",
+      "label": "resource",
+      "name": "resource",
+      "help_text": "Enter resource",
+      "default": "customer"
+    }
+  ],
+  "is_public": false,
+  "is_open_source": false,
+  "language": "js",
+  "updated_at": 1447022379,
+  "created_at": 1447022273
+}
