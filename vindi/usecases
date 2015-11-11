@@ -1,0 +1,140 @@
+"As a <role>, I want <goal/desire> so that <benefit>"
+
+As a user, I want to start an audio call with a contact
+As a user, I want to end an audio call with a contact
+As a user, I want to answer calls from anyone
+As a user, I want to join an audio conference 
+As a user, I want to create/start an audio conference 
+As a user, I want to switch from differente devices during a call 
+As a user, I want to send text messages to users (people?)
+As a user, I want to receive text messages from users (people?)
+As a user, I want to know when events (call, user joins, user leaves, ...) occur
+As a user, I want to receive files (recognize files as clickable) from other users
+As a user, I want to send a file to other users
+As a user, I want to preview images received
+As a user, I want to recognise links as clickable (??)
+As a user, I want to preview links received
+As a user, I want to mention other users in a message
+As a user, I want to delete a message I sent
+As a user, I want to join a public group
+As a user, I want to invite people to a public group
+As an outsider, I want to sign up 
+As a user, I want to sign in
+As a user, I want to create a new team
+As a user, I want to invite people to my team
+As a user, I want to leave a team
+As a user, I want to synch my mobile contacts with Remoto
+As a user, I want to find contacts I have in my mobile
+As a user, I want to type a number to call (audio call) anyone
+As a concierge, I want to create a user & team manually
+As a user, I want to call/message my concierge
+As a user, I want to edit my profile name, email, alias, timezone
+As a user, I want to see a contact card info
+As a user, I want to edit my contacts card info
+As a user, I want to see a participants list of a public group
+As a user, I want to see a participants list of a private group I joined
+As a user, I want to browse activity (events) history of a person with the team
+As a user, I want to browse activity (events) history of a person with me
+As a user, I want to browse assets (files, documents, links, etc) shared with a person
+As a user, I want to browse assets shared with a group
+As a user I want to give a name/rename a group
+
+
+
+
+As a user, I want to see how many new events happened in a conversation
+As a user, I want to see (in the app icon) that events happened in the app 
+
+
+As a user, I want to share contacts with my team
+As a group admin, I want to invite people to a private group ??
+As an outsider, I want to be in a conference without signing up (??)
+As an outsider, I want to chat ??
+As a user, I want to make a video call with another user **
+As a user, I want to create a video conference **
+As a user, I want to edit a message I sent.
+As a group admin, I want to hide/unhide a message sent to the group
+As a user, I want to mention user groups in a message **
+As a user, I want to find a group to join
+As a user, I want to share some contacts with my team
+As a user, I want to find contacts my team shared
+
+
+
+
+Mobile : Make audio call to another user
+Mobile : Answer audio call
+Mobile : Mute themself
+Mobile : Join a group call (conference)
+Desktop : Join a group call (conference)
+Mobile : Make audio call to a group (conference)
+Desktop : Make audio call to a group (conference)
+Mobile : Switch from different devices during a call
+Desktop : Switch from different devices during a call
+Mobile: Send a text message to a user/group of Remoto
+Mobile : Receive text message
+Mobile : See Events on Chat (Call, User Joins, User Leaves...)
+Mobile : See Events on Chat (Call, User Joins, User Leaves...)
+Desktop : See Events on Chat (Call, User Joins, User Leaves...)
+Mobile : Recognise file as clickable
+Desktop : Recognise file as clickable
+Mobile : Upload a file
+Desktop : Upload a file
+Mobile: Preview image
+Desktop : Preview image
+Mobile : Recognise link as clickable
+Desktop : Recognise link as clickable
+Mobile : Mention users
+Desktop : Mention users
+Mobile : Delete message
+Desktop : Delete message
+Desktop: Leave Group
+Desktop: Add user to group (create group)
+Desktop: Delete Group
+Mobile : Invite new users
+Desktop : Invite new users
+Mobile : Sign up
+Desktop : Sign up
+Mobile : Leave team
+Desktop : Leave team
+Mobile : Search contacts (remoto users and imported outsider contacts)
+Desktop : Search contacts (remoto users and imported outsider contacts)
+Mobile : Search groups
+Desktop : Search groups
+Mobile : Call a phone number (typing number)
+Desktop : Call a phone number (typing number)
+Mobile : Concierge can create user & team manually
+Desktop : Concierge can create user & team manually
+Mobile : Edit their profile (name, email, alias)
+Desktop : Edit their profile (name, email, alias)
+Mobile : Add remoto contact via alias ??
+
+Desktop : Add remoto contact via alias {!}
+Mobile : Browse most recent conversations
+Mobile : Authorize contact synchronization
+Mobile : View user state
+Desktop : View user status
+Mobile : Make video conference via third party integration
+Desktop : Make video conference via third party integration
+Mobile : View user's card info
+Mobile : View user's card info
+Mobile : View group participants
+Desktop : View group participants
+Mobile: Browse call history with team
+Desktop: Browse call history with team
+Mobile: Browse call history with themselves
+Desktop: Browse call history with themselves
+Mobile: Browse link history with themselves
+Desktop: Browse link history with themselves
+Mobile: Browse link history with team
+Desktop: Browse link history with team
+Mobile: Browse file history with themselves
+Desktop: Browse file history with themselves
+Mobile: Browse file history with team
+Desktop: Browse file history with team
+Mobile: Browse call history with themselves
+Desktop: Browse call history with themselves
+[Mobile : Spike] "TestFlight"
+[Mobile : Spike] Call
+[Mobile : Spike] Chat while on call
+[Mobile : Spike] Choose user

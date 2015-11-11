@@ -12,28 +12,34 @@ var options = {
   }
 };
 
-var req = http.request(options, function (res) {
-  var chunks = [];
 
-  res.on("data", function (chunk) {
-    chunks.push(chunk);
-  });
 
-  res.on("end", function () {
-    var body = Buffer.concat(chunks);
-    console.log(body.toString());
-  });
-});
-
-// req.end();
 
 
 blockspring.define(function(request, response) {
-	resource = request.params.resource;
-	options.path += resource;
-	response.addOutput (options);
-	response.end();
+  var resource = request.params.resource;
+  var response = response;
+  
 
-	// response.addOutput('intro', name + age);
-	// response.end();
+  options.path+=resource;
+
+  var req = http.request(options, function (res) {
+    var chunks = [];
+
+    res.on("data", function (chunk) {
+      chunks.push(chunk);
+    });
+
+    res.on("end", function () {
+      var body = Buffer.concat(chunks);
+      console.log(body.toString());
+    });
+  });
+  
+
+  req.end();
+  
+  response.end();
 });
+
+ 

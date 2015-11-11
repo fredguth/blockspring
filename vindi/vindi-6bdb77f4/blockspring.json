@@ -9,7 +9,7 @@
       "label": "resource",
       "name": "resource",
       "help_text": "Enter resource",
-      "default": "customer"
+      "default": "customers"
     }
   ],
   "is_public": false,
